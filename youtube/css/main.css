@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset end */
+
+body {
+	background-color: #f1f1f1;
+}
+
+
+/* header */
+
+header {
+	background: #fff;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #dedede;
+}
+
+header span {
+	display: inline-block;
+}
+
+#menu-btn {
+	background: no-repeat url(../images/icons.jpg) -322px -168px;
+	height: 16px;
+	width: 17px;
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+#logo {
+	background: no-repeat url(../images/icons.jpg) -178px -227px;
+	height: 30px;
+	width: 73px;
+	margin-left: 1%;
+	margin-top: 10px;
+	cursor: pointer;
+	float: left;
+}
+
+#search {
+	margin-left: 8%;
+	margin-top: 7px;
+}
+
+
+.text-box {
+	height: 26px;
+	width: 500px;
+	font-size: 16px;
+	padding-left: 5px;
+	
+}
+
+.text-box:focus {
+	height: 26px;
+	width: 500px;
+	font-size: 16px;
+	padding-left: 5px;
+	outline: 1px solid blue;
+}
+
+#submit-btn {
+	background: #f8f8f8;
+	height: 30px;
+	width: 50px;
+	border:1px solid #ccc;
+	border-radius: 0 5px 5px 0;
+	border-left: none;
+	margin-left: -4px;
+	cursor: pointer;
+
+
+}
+
+#submit-btn:hover {
+	background: #ccc;
+	cursor: pointer;
+	height: 30px;
+	width: 50px;
+	border:1px solid #ccc;
+	border-radius: 0 5px 5px 0;
+	border-left: none;
+	margin-left: -4px;
+}
+
+#submit-btn input {
+	background: no-repeat url(../images/icons.jpg) -694px -43px;
+	width: 15px;
+	height: 15px;
+	box-shadow: none
+	background-size: auto;
+	border: none;
+	margin-top: 9px;
+	margin-left: 17px;
+	cursor: pointer;
+}
+
+#submit-btn input:hover {
+	background: no-repeat url(../images/icons.jpg) -694px -43px;
+	width: 15px;
+	height: 15px;
+	box-shadow: none
+	background-size: auto;
+	border: none;
+	margin-top: 9px;
+	margin-left: 17px;
+	cursor: pointer;
+}
+
+
+.upload {
+	background: no-repeat url(../images/icons.jpg) -106px -28px;
+	width: 24px;
+	height:24px;
+	cursor: pointer;
+	margin-top: 13px;
+	float: right;
+	margin-right: 1.2%;
+}
+.sing-in {
+	background-color: #167ac6;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	height: 28px;
+	width: 60px;
+	border-radius: 3px;
+	margin-top: 11px;
+}
+
+
+.sing-in-btn {
+	height: 28px;
+	width:60px;
+	padding: 0;
+	float: right;
+	margin-right: 1.5%
+
+}
+
+/* main content */
+
+/* video */
+
+#main-content {
+	width: 1050px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+.video {
+	width: 640px;
+	height: 360px;
+	float: left;
+}
+
+.video-info {
+	width: 640px;
+	height: 170px;
+	background-color: #fff;
+	float: left;
+	margin-top: 10px;
+}
+
+.suggested-section {
+	width: 400px;
+	float: right;
+	background-color: #fff;
+	height: 1000px;
+
+}
+
+.video-info h1 {
+	font-size: 20px;
+	font-family: Helvetica;	
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.user-pic {
+	width: 45px;
+	height: 50px;
+	background-color: #ccc;
+	margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+    float:left;
+}
+
+.user-info {
+	height: 80px;
+}
+
+.user-name {
+	display: inline-block;
+	padding-left: 10px;
+	float:left;
+	margin-top: 7px;
+	line-height: 25px;
+
+}
+
+.user-name li {
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+.user-name li input {
+	width: 100px;
+	background-color: red;
+	color: #fff;
+	border: none;
+	height: 25px;
+}
+.subscribe-btn {
+	height: 25;
+}
+
+.views {
+	clear: both;
+	margin: 0 auto;
+	width: 620px;
+	height: 19px;
+	border-bottom: 1px solid #dedede;
+	margin-top: -30px;
+	
+}
+
+.views p {
+	float: right;
+	font-size: 19px;
+	font-family: Helvetica;
+	color: #666;
+	border-bottom: 2px solid #167ac6;
+	width: 122px;
+
+}
+
+.bottom {
+	height: 30px;
+	width: 620px;
+	margin: 0 auto;
+	margin-top: 15px;
+
+}
+
+.bottom ul li {
+	display: inline;
+	 font-family: "YouTube Noto",Roboto,arial,sans-serif;
+    font-size: 11px;
+    color: #666;
+
+}
+
+.fst {
+	width: 300px;
+	display: inline;
+	float: left;
+}
+
+.snd {
+	width: 300px;
+	display: inline;
+	float: right;
+	text-align: right;
+}
+.first {
+	background: no-repeat url(../images/icons.jpg) -813px -232px;
+	display: block;
+	height: 20px;
+	width: 20px;
+}
+
+.second {
+	background: no-repeat url(../images/icons.jpg) -822px -88px;
+	display: block;
+	height: 20px;
+	width: 20px;
+}
+.third {
+	background: no-repeat url(../images/icons.jpg) -675px -148px;
+	display: block;
+	height: 20px;
+	width: 20px;
+}
+
+.bottom span {
+	display: inline-block;
+}
+
+.fourth {
+	background: no-repeat url(../images/icons.jpg) -775px -112px;
+	display: block;
+	height: 20px;
+	width: 20px;
+}
+
+.fifth {
+	background: no-repeat url(../images/icons.jpg) -807px -200px;
+	display: block;
+	height: 20px;
+	width: 20px;
+}
